@@ -1,0 +1,19 @@
+[project]
+name = "microsaas--qrcode"
+version = "0.1.0"
+description = "Projeto para portifolio"
+authors = [
+    {name = "", email = ""},
+]
+dependencies = ["crcmod>=1.7", "qrcode>=8.0", "Callable>=0.1.2", "Pillow>=11.0.0"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
